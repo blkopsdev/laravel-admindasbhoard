@@ -31,7 +31,6 @@ Create new Page
                 </div>
             </div>
 
-
     <div class="form-group">
         <div class="col-sm-offset-3 col-sm-2">
             {!! Form::submit('Create', ['class' => 'btn btn-primary form-control']) !!}
@@ -43,9 +42,9 @@ Create new Page
 @section('scripts')
 <script>
     $(document).ready(function() {
-    $('#summernote').summernote({
-        height: 300
-    });
+        $('#summernote').summernote({
+            height: 300
+        });
     });
   </script>
 @endsection

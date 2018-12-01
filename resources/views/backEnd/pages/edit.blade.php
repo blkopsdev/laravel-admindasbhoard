@@ -8,8 +8,6 @@ Edit Page
     <h3>Edit Page</h3>
     <hr/>
 
-    
-
     {!! Form::model($page, [
         'method' => 'PATCH',
         'url' => ['pages', $page->id],
@@ -42,7 +40,6 @@ Edit Page
                     {!! $errors->first('body', '<p class="help-block">:message</p>') !!}
                 </div>
             </div>
-
 
     <div class="form-group">
         <div class="col-sm-offset-3 col-sm-3">

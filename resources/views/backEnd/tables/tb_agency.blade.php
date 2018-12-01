@@ -93,8 +93,6 @@ Agency
                         <input type="text" class="form-control" id="website" name="website" value="">
                       </div>
                     </div>
-                    
-                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
